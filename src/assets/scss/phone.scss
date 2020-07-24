@@ -1,0 +1,179 @@
+.img-con{
+  
+}
+
+.fontings{
+  font-weight: 900;
+}
+
+.extra{
+  padding-top: 30px;
+}
+
+.modekai{
+  font-size: 12px;
+}
+
+.desk{
+  font-size: 9px;
+}
+
+// @media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+//
+//
+//   .kora{
+//     min-height:260px !important;
+//     min-width:260px !important;
+//   }
+//
+//   }
+
+  // @media only screen and (max-height: 500px), only screen and (max-device-height: 500px) {
+  //
+  //
+  //   .kora{
+  //     min-height:290px !important;
+  //     min-width:270px !important;
+  //   }
+  //
+  //   }
+
+/** Mobile **/
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+  .kora{
+    min-height:270px !important;
+    min-width:260px !important;
+  }
+
+.flexing{
+  display: flex;
+  font-size: 5px !important;
+  padding: 3px 3px !important;
+
+}
+
+.flexinglessly{
+  display: flex;
+  font-size: 6px !important;
+  padding: 5px 10px !important;
+
+}
+
+.flexingless{
+  display: flex;
+  padding: 0px 0px !important;
+
+}
+
+.kwenda{
+  margin-right: 16px;
+  font-size: 8px;
+}
+
+  .notif{
+    font-size: 8px;
+  }
+
+  .notiflow{
+      font-size: 10px;
+  }
+
+  .notiflowish{
+    font-size: 14px;
+    font-weight: 900;
+
+  }
+
+  .songaUko{
+    margin-top: 20px;
+    margin-left: -15px;
+  }
+
+  .footing{
+    margin-left: 18px;
+  }
+
+  .rudi {
+    margin-bottom: 10px;
+    margin-left: -15px;
+  }
+
+  .newSoko{
+            display: none;
+        }
+
+  .tabButtons{
+            margin-bottom: 1px;
+}
+
+.smallFont {
+  font-size: 1.0em;
+  font-weight: 500;
+}
+
+.smallFontNumber {
+  font-size: 0.65em;
+  font-weight: 900;
+}
+
+.smallFontDate {
+  font-size: 0.55em;
+  font-weight: 900;
+}
+
+.smallFontRequest {
+  font-size: 0.90em;
+  font-weight: 900;
+}
+
+.smallFontHead {
+  font-size: 0.55em;
+  font-weight: 900;
+}
+
+.smallFontTitle {
+  font-size: 0.65em;
+  font-weight: 900;
+}
+
+.smallFontLabel {
+  font-size: 0.75em;
+  font-weight: 900;
+}
+
+.flexBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+}
+
+/** Tablet **/
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+  .newSoko{
+            display: none;
+        }
+
+
+
+}
+
+/** Tablet (landscape) **/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+  .newSoko{
+            display: none;
+        }
+
+
+}
+
+.marg{
+
+  margin-top: 100px;
+
+}
