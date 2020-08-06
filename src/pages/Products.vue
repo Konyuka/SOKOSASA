@@ -546,7 +546,7 @@
             },
             addProduct() {
 
-                if ( this.product.name ) {
+                if ( this.product.name && this.product.images && this.product.category && this.product.county && this.product.farmer && this.product.phone && this.product.price && this.product.type) {
 
                   // user: user.uid,
                   let user = fb.auth().currentUser;
